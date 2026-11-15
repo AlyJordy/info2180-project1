@@ -162,6 +162,31 @@ nav a:hover {
 .stories a {
     color: #5A67D8;
 }
+.newsletter {
+    background: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    width: 300px;
+    max-width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.newsletter .btn {
+    background: #5A67D8;
+}
 footer {
     background: #4A5568;
     color: white;
